@@ -1,0 +1,10 @@
+beans\Usuario.class
+beans\Prueba.class
+controller\UsuarioController.class
+beans\Areas.class
+controller\IUsuarioController.class
+servlets\PruebaServlet.class
+servlets\ServletUsuarioRegister.class
+test\OperacionesBD.class
+servlets\ServletUsuarioLogin.class
+connection\DBConnection.class
