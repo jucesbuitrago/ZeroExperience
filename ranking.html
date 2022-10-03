@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+              integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+              crossorigin="anonymous" />
+        
+         <!--Header-->
+
+        <link href="bootstrap/animate.css/animate.min.css" rel="stylesheet">
+        <link href="bootstrap/aos/aos.css" rel="stylesheet">
+        <link href="bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="bootstrap/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="bootstrap/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="bootstrap/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <!-- Fin -->
+        
+        <script src="js/ranking.js"></script>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        
+        <title>Leaderboard</title>
+    </head>
+    <body>
+        <!-- ======= Header ======= -->
+        <header id="header" class="align-items-cente">
+            <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+                <h1 class="logo me-auto me-lg-0"><a href="home.html">ZeroExperience</a></h1>
+              
+                <nav id="navbar" class="navbar order-last order-lg-0">
+                    <ul>
+                        <li><a class="nav-link scrollto active" href="contact.html">Home</a></li>
+                        <li><a class="nav-link scrollto" href="area.html">Areas</a></li>                    
+                        <li><a class="nav-link scrollto" href="ranking.html">Ranking</a></li>                   
+                        <li><a class="nav-link scrollto" href="portafolio.html">Hoja de vida</a></li>                   
+                        <li><a id="mi-perfil-btn" class="nav-link scrollto" href="#about">Perfil</a></li>                   
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav><!-- .navbar -->
+                <a href="index.html" id="salir-btn" class="book-a-table-btn scrollto d-none d-lg-flex">Salir</a>
+            </div>
+        </header><!-- End Header -->
+        
+        <main class="p-4 d-flex justify-content-center">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Username</th>
+                        <th scope="col">Titulo Prueba</th>
+                        <th scope="col">Fecha Prueba</th>
+                        <th scope="col">Resultado Prueba</th>
+                    </tr>
+                </thead>
+                <tbody id="areas-tbody">
+                </tbody>
+            </table>
+        </main>
+        <script src="js/header.js"></script>
+    </body>
+</html>
